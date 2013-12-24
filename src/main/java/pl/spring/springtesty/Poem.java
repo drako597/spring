@@ -3,7 +3,6 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-
 package pl.spring.springtesty;
 
 /**
@@ -11,8 +10,8 @@ package pl.spring.springtesty;
  * @author karol
  */
 class Poem {
-    
-    private  String poem="Żurawina";
+
+    private String poem = "Żurawina";
 
     public Poem() {
     }
@@ -24,9 +23,5 @@ class Poem {
     public String getPoem() {
         return poem;
     }
-    
-    
-    
-    
-    
+
 }

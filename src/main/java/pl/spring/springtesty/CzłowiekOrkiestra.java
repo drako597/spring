@@ -4,7 +4,9 @@
  * and open the template in the editor.
  */
 
-package pl.sspringintegratiospringtestyjava.util.Collection;
+package pl.spring.springtesty;
+
+import java.util.Collection;
 
 /**
  *

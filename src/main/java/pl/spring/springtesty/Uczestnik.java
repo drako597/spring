@@ -3,11 +3,10 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+package pl.spring.springtesty;
 
-package pl.sspringintegratiospringtesty * @author karol
- */
 public interface Uczestnik {
-    
+
     void rozpocznijPokaz();
-    
+
 }

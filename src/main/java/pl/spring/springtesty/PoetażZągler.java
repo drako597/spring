@@ -4,9 +4,10 @@
  * and open the template in the editor.
  */
 
-package pl.sspringintegratiospringtesty * @author karol
+package pl.spring.springtesty;
+/* @author karol
  */
-public class PoetażZągler extends żągler {
+public class PoetażZągler extends Żągler {
     
     private Poem poem;
 

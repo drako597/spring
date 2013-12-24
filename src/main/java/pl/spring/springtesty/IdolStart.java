@@ -4,7 +4,8 @@
  * and open the template in the editor.
  */
 
-package pl.sspringintegratiospringtestyorg.springframework.context.ApplicationContext;
+package pl.spring.springtesty;
+import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 /**
@@ -15,7 +16,7 @@ public class IdolStart {
     
     public static void main(String[] args){
         ApplicationContext ac = new ClassPathXmlApplicationContext("/META-INF/spring/integration/Idol.xml");
-        scena s = (scena)ac.getBean("scena");
+        Scena s = (Scena)ac.getBean("scena");
         s.występ();
     }
     

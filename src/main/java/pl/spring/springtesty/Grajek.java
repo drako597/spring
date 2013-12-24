@@ -3,26 +3,23 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-
 package pl.spring.springtesty;
 
 /**
  *
  * @author karol
  */
-public class Grajek implements Uczestnik{
-    
+public class Grajek implements Uczestnik {
+
     private Instrument instrument;
 
     public Grajek(Instrument instrument) {
         this.instrument = instrument;
     }
 
-    @Override
     public void rozpocznijPokaz() {
         System.out.println("Gram na :" + instrument.getNameInstrument());
         instrument.graj();
     }
-    
-    
+
 }

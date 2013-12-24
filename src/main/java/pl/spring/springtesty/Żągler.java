@@ -3,28 +3,28 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-
 package pl.spring.springtesty;
+
+import org.springframework.beans.factory.annotation.Value;
 
 /**
  *
  * @author karol
  */
-public class żągler implements Uczestnik{
-    
-    int x=4;
+public class Żągler implements Uczestnik {
 
-    public żągler() {
-    }
-    public żągler(int x) {
-        this.x=x;
+    @Value("10")
+    int x = 4;
+
+    public Żągler() {
     }
     
-    
+    public Żągler(int x) {
+        this.x = x;
+    }
 
-    @Override
     public void rozpocznijPokaz() {
-        System.out.println("Żągluję:"+x+"piłeczkami");
+        System.out.println("Żągluję:" + x + " piłeczkami");
     }
-    
+
 }
